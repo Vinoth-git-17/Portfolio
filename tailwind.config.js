@@ -7,7 +7,7 @@ module.exports = {
       Monserrat:"'Montserrat', sans-serif"
       },
       screens: {
-        "ssm": '320px',
+       
 
         'sm': '640px',
         // => @media (min-width: 640px) { ... }
