@@ -1013,10 +1013,11 @@ body{
 
 .nav-container .hamburger-lines {
   display: block;
-  height: 26px;
-  width: 32px;
+  height: 24px;
+  width: 30px;
   position: absolute;
-  right: 0px;
+  top: 5px;
+ left: 20px;
   z-index: 2;
   display: flex;
   flex-direction: column;
@@ -1048,11 +1049,15 @@ body{
 .navbar .menu-items {
   padding-top: 80px;
   height: 300px;
-  transform: translate(300%);
+  transform: translateX(200%);
   display: flex;
   flex-direction: column;
   transition: transform 0.5s ease-in-out;
   text-align: center;
+  
+  
+ 
+  
 
 }
 
@@ -1060,7 +1065,11 @@ body{
   margin-bottom: 1rem;
   font-size: 1.5rem;
   font-weight: 500;
+
+  
   }
+
+  
 
 
 
