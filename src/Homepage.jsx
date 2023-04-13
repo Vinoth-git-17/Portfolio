@@ -13,9 +13,9 @@ const Homepage = () => {
       <h2 class="drop-shadow-lg text-xl sm:text-base mt-4  font-Poppins font-medium opacity-80 ">
         Front end developer
       </h2>
-      <a href="https://www.instagram.com/_.iamvinothhhh._/">
+      <a href="mailto: vinothnick17@gmail.com" >
         
-        <button class=" m-4 px-4 p-2 rounded-full border-2 border-violet  hover:bg-violet text-white lg:border-violet lg:text-white lg:hover:bg-violet  ease-in-out delay-100 font-Poppins">
+        <button class=" m-4 px-4 p-2 rounded-full border-2 border-violet  hover:bg-violet  text-white lg:border-violet lg:text-white lg:hover:bg-violet  ease-in-out delay-100 font-Poppins">
           Contact me 
         </button>
       </a>

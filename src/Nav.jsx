@@ -11,17 +11,17 @@ const Nav = () => {
         <nav  class=" p-7 font-poppins text-md px-[50px]">
             
             <div class="hidden md:flex justify-between ">
-                <img class="rounded-2xl h-9" src={logo}alt=""/>
+                <img class="  h-10" src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/V-logo.svg/2048px-V-logo.svg.png' alt=""/>
 
 
                 <div class="hidden md:flex gap-x-7">
-                    <a class="mx-5 font-medium hover-underline-animation  set duration-300 "href="#About">ABOUT</a>
-                    <a class="mx-7 font-medium hover-underline-animation  set duration-300 "href="#Project">PROJECT</a>
-                    <a class="mx-5 font-medium hover-underline-animation  set duration-300"href="#Contact">CONTACT</a>
+                    <a class="mx-5 font-medium hover-underline-animation  duration-300 "href="#About">ABOUT</a>
+                    <a class="mx-7 font-medium hover-underline-animation   duration-300 "href="#Project">PROJECT</a>
+                    <a class="mx-5 font-medium hover-underline-animation   duration-300"href="#Contact">CONTACT</a>
                 </div>
             </div>    
             <div class="flex justify-between md:hidden ">
-                <img class="rounded-xl h-9  " src="https://cdn-icons-png.flaticon.com/128/3800/3800024.png"alt=""/>
+            <img class=" h-9" src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/V-logo.svg/2048px-V-logo.svg.png' alt=""/>
            
             
                 <button class=" mobile-menu-button md:hidden " onClick={(()=> settoggle(prev => !prev))}>
@@ -31,11 +31,11 @@ const Nav = () => {
 
                 </button>
             </div >
-            <div className={toggle ? "block ": "hidden"}>
-            <div class=" md:hidden mobile-menu mt-4 text-right ">
-                    <a class="py-3  font-normal block hover:opacity-50 set duration-300"href="#About">ABOUT</a>
-                    <a class="py-3 font-normal block hover:opacity-50   set duration-300"href="#Project">PROJECT</a>
-                    <a class="py-3   font-normal block hover:opacity-50 set duration-300"href="#Contact">CONTACT</a>
+            <div className={toggle ? "inline-block ": "hidden"}>
+            <div class="flex flex-col gap-y-3 md:hidden mobile-menu mt-5 ml-[16rem] text-center">
+                    <a class="p-2 rounded-xl font-normal  hover:text-white/50 bg-violet"href="#About">ABOUT</a>
+                    <a class="p-2 rounded-xl font-normal  hover:text-white/50  bg-violet "href="#Project">PROJECT</a>
+                    <a class="p-2 rounded-xl  font-normal  hover:text-white/50 bg-violet "href="#Contact">CONTACT</a>
               </div> 
             </div>
               
