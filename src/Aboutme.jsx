@@ -3,7 +3,7 @@ import React from "react";
 const Aboutme = () => {
   return (
     <section id='About'>
-      <div  class=" text-center mb-40 mt-10  py-20 px-[50px]">
+      <div  class=" text-center mb-40 mt-10  py-20 px-10">
       <h1 class="text-4xl  mb-4 ">ABOUT ME</h1>
       <hr />
       <p class="mt-4 text-lg leading-8">

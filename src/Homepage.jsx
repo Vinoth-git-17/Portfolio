@@ -2,7 +2,7 @@ import React from "react";
 
 const Homepage = () => {
   return (
-    <div id="#Home" class=" relative px-20 py-40 text-center ">
+    <div id="#Home" class=" relative py-20 text-center px-3">
       <h1 class=" drop-shadow-lg text-4xl sm:text-5xl font-Poppins slideup mt-4">
         {" "}
         Hi,
@@ -10,7 +10,7 @@ const Homepage = () => {
       <h1 class=" drop-shadow-lg text-7xl sm:text-8xl text-transparent text-gradient font-Poppins  mt-4">
         I'm Vinoth
       </h1>
-      <h2 class="drop-shadow-lg text-xl sm:text-base mt-4  font-Poppins font-medium opacity-80 ">
+      <h2 class="drop-shadow-lg  sm:text-base mt-4  font-Poppins font-medium opacity-80 ">
         Front end developer
       </h2>
       <a href="mailto: vinothnick17@gmail.com" >

@@ -8,7 +8,7 @@ const Nav = () => {
   return (
  
          
-        <nav  class=" p-7 font-poppins text-md px-[50px]">
+        <nav  class=" p-7 font-poppins text-md ">
             
             <div class="hidden md:flex justify-between ">
                 <img class="  h-10" src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/V-logo.svg/2048px-V-logo.svg.png' alt=""/>
@@ -32,7 +32,7 @@ const Nav = () => {
                 </button>
             </div >
             <div className={toggle ? "inline-block ": "hidden"}>
-            <div class="flex flex-col gap-y-3 md:hidden mobile-menu mt-5 ml-[16rem] text-center">
+            <div class="flex flex-col gap-y-3 md:hidden mobile-menu mt-5 ml-[13rem] text-center">
                     <a class="p-2 rounded-xl font-normal  hover:text-white/50 bg-violet"href="#About">ABOUT</a>
                     <a class="p-2 rounded-xl font-normal  hover:text-white/50  bg-violet "href="#Project">PROJECT</a>
                     <a class="p-2 rounded-xl  font-normal  hover:text-white/50 bg-violet "href="#Contact">CONTACT</a>

@@ -11,7 +11,7 @@ import { tindog, spotify } from "../images/img";
 function App() {
   return (
     <div
-      className="font-poppins text-white"
+      className="font-poppins text-white overflow-hidden"
       style={{
         backgroundImage: `url(${bgImg})`,
         backgroundRepeat: "no-repeat",
