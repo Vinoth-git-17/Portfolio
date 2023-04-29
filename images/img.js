@@ -7,6 +7,7 @@ import tindog from '../images/tindog.png'
 import spotify from '../images/spotify.png'
 import logo from "../images/logo.png"
 
+
 export {
     bgImg,
     java,

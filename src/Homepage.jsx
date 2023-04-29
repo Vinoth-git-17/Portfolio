@@ -10,7 +10,7 @@ const Homepage = () => {
       <h1 class=" drop-shadow-lg text-7xl sm:text-8xl text-transparent text-gradient font-Poppins  mt-4">
         I'm Vinoth
       </h1>
-      <h2 class="drop-shadow-lg  sm:text-base mt-4  font-Poppins font-medium opacity-80 ">
+      <h2 class="drop-shadow-lg sm:text-base mt-4 font-Poppins opacity-80 ">
         Front end developer
       </h2>
       <a href="mailto: vinothnick17@gmail.com" >

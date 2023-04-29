@@ -26,7 +26,7 @@ function App() {
       <h1 className="text-4xl font-Poppins  drop-shadow-lg text-center   m-14">PROJECTS</h1>
 
       <div className="flex flex-wrap justify-center gap-10 px-[50px]">
-        
+         
         <Card
          
           img={tindog}
