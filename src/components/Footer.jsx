@@ -4,8 +4,8 @@ import { faGithub,faInstagram,faLinkedin} from '@fortawesome/free-brands-svg-ico
 const Footer = () => {
  
   return (
-    <footer id="Contact" class="bg-blue mt-20">
-      <div class=" p-20 text-center  ">
+    <footer id="Contact" className="bg-blue mt-20">
+      <div className=" p-20 text-center  ">
         <a href="https://www.instagram.com/_.iamvinothhhh._/">
           <FontAwesomeIcon className=" hover:opacity-50  mx-3" icon={faInstagram} size="xl"/>
         </a>
@@ -15,7 +15,7 @@ const Footer = () => {
         <a href="https://github.com/Vinoth-git-17">
           <FontAwesomeIcon className=" hover:opacity-50 mx-3" icon={faGithub} size="xl"></FontAwesomeIcon>
         </a>
-        <h2 class="pt-4 date">Copyright © 2023</h2>
+        <h2 className="pt-4 date">Copyright © 2023</h2>
       </div>
     </footer>
   );
