@@ -6,9 +6,9 @@ const Projectcard = () => {
     <section id="Project">
       <h1 className="text-4xl font-Poppins text-center   m-14">PROJECTS</h1>
 
-      <div className="flex flex-wrap justify-center gap-10 px-[50px]">
+      <div className="flex flex-wrap justify-center gap-10 px-[30px]">
         {CardDetails.map((Card) => (
-          <div className=" rounded-2xl w-[20rem] h-[300px] bg-white text-black px-10 py-5" key={Card.name}>
+          <div className=" rounded-2xl w-[18rem] h-[18rem] bg-white text-black px-10 py-5" key={Card.name}>
             <img className="rounded-lg"  src={Card.img} alt="" />
 
             <h1 className="text-lg pt-5">{Card.name}</h1>

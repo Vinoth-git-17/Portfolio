@@ -1,6 +1,4 @@
 import React, { useState } from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faXmark ,faBars} from '@fortawesome/free-solid-svg-icons'
 import { Fade as Hamburger } from 'hamburger-react'
 
 
@@ -42,7 +40,7 @@ const Nav = () => {
              
             </div >
             <div className={isOpen ? "": "hidden"}>
-            <div className="transition-all absolute w-full  flex flex-col gap-y-3 bg-glass md:hidden mt-6 px-[200px] py-9 text-center ">
+            <div className="absolute w-[100%] flex flex-col gap-y-3 bg-glass md:hidden mt-6 py-9 text-right px-10 ">
                     <a className="p-2 rounded-xl font-normal  hover:text-white/50"href="#About">ABOUT</a>
                     <a className="p-2 rounded-xl font-normal  hover:text-white/50   "href="#Project">PROJECT</a>
                     <a className="p-2 rounded-xl  font-normal  hover:text-white/50 "href="#Contact">CONTACT</a>
