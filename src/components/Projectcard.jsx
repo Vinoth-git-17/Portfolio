@@ -3,9 +3,9 @@ import CardDetails from "../static/data";
 
 const Projectcard = () => {
   return (
-    <section id="Project">
-      <h1 className="text-4xl font-Poppins text-center   m-14">PROJECTS</h1>
-
+    <section id="Project"className="pt-5">
+     
+      <h1 className="text-4xl font-Poppins text-center p-14">PROJECTS</h1>
       <div className="flex flex-wrap justify-center gap-10 px-[30px]">
         {CardDetails.map((Card) => (
           <div className=" rounded-2xl w-[18rem] h-[18rem] bg-white text-black px-10 py-5" key={Card.name}>
@@ -20,7 +20,9 @@ const Projectcard = () => {
             </button>
           </div>
         ))}
+  
       </div>
+     
     </section>
   );
 };
