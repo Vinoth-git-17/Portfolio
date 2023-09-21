@@ -12,7 +12,7 @@ function App() {
   return (
 
     <div
-      className="font-poppins text-white overflow-hidden"
+      className="font-poppins text-white overflow-x-hidden"
       style={{
         backgroundImage: `url(${bgImg})`,
         backgroundRepeat: "no-repeat",
