@@ -1,12 +1,12 @@
 {
-  "homepage": "https://Vinoth-git-17.github.io/portfolio",
+  "homepage": "https://Vinoth-git-17.github.io/portfolio/",
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
